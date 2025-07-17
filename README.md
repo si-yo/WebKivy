@@ -3,7 +3,7 @@ WebKivy
 <!-- GIF + lien vers YouTube (rendu partout) -->
 [![WebKivy demo](WebKivy_Example_presentation.gif)](https://youtu.be/Ng7Pyy2f_kk)
 
-
+youtube link : https://www.youtube.com/watch?v=Ng7Pyy2f_kk
 
 WebKivy is a minimalist wrapper that allows you to run Kivy/KivyMD applications directly in a browser using Pyodide.
 
