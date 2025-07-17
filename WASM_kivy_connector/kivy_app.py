@@ -1,3 +1,9 @@
+#######################
+#      Example        #
+#######################
+
+
+
 # app_kivy.py
 from connector import (
     Label, Button, TextInput, Slider, Switch, ProgressBar,
