@@ -39,7 +39,7 @@ from connector import BoxLayout, Label, Slider
 
 ⸻
 
-Prise en main rapide
+## Prise en main rapide:
 
 git clone https://github.com/votrecompte/WebKivy.git
 cd WebKivy
@@ -64,7 +64,7 @@ Enregistrez, rafraîchissez → votre appli s’exécute dans le navigateur !
 
 ⸻
 
-Structure du dépôt
+## Structure du dépôt:
 
 Fichier / dossier	Rôle
 index.html	Page d’accueil, charge main.js et prépare le <canvas>
@@ -77,7 +77,7 @@ assets/	Icônes, images de test, etc. (chargées via Image(source=...))
 
 ⸻
 
-Compatibilité et limitations
+## Compatibilité et limitations:
 
 Fonctionnalité	Support	Notes
 Widgets Kivy de base	✓ partiel	Position/size : x, y, size, size_hint simplifiés
@@ -91,7 +91,7 @@ OpenGL / Shaders	✕	Incompatible WebAssembly + Canvas2D
 
 ⸻
 
-Roadmap
+## Roadmap:
 	•	Support Clock.schedule_once / Animation
 	•	Widgets complexes (Tab, RecycleView)
 	•	Thème sombre / clair automatique
@@ -100,7 +100,7 @@ Roadmap
 
 ⸻
 
-Contribuer
+## Contribuer:
 	1.	Fork puis git clone.
 	2.	Créez une branche : git checkout -b feat/ma-feature.
 	3.	Codez ; n’hésitez pas à ajouter un exemple dans examples/.
