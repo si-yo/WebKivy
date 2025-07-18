@@ -23,18 +23,26 @@ Summary
 
 Why?
 • No installation: Your Kivy app becomes a simple HTML + JS bundle.
+
 • Instant demo: Share a link or a .zip file, and the public can test it immediately.
+
 • Isolation: Python code runs in Pyodide's WebAssembly sandbox; no risk to the OS or system environment.
+
 • Learning: Ideal for workshops or MOOCs where learners only have a browser at their disposal.
 
 ⸻
 
 How it works
 1. Pyodide is loaded client-side (via a CDN).
+   
 2. The connector.py file reconstructs a subset of Kivy.
+   
 • Base widgets: Label, Button, Slider, TextInput, ScreenManager, etc.
+
 • Lightweight KivyMD overlay: MDToolbar, MDRaisedButton, MDCard, etc.
+
 • HTML5 Canvas (<canvas id="kivy-canvas">) for 2D rendering.
+
 3. Your code imports these classes as if it were running the real library:
 
 from connector import BoxLayout, Label, Slider
@@ -46,22 +54,30 @@ from connector import BoxLayout, Label, Slider
 ## Quick Start:
 
 git clone https://github.com/youraccount/WebKivy.git
+
 cd WebKivy
+
 # launches a small server – required for ES + Pyodide imports
+
 python3 -m http.server 8000
 
 Open http://localhost:8000 then select/edit kivy_app.py to code your interface.
 
 # kivy_app.py
+
 from connector import Button, BoxLayout, run_kivy_app
 
 class HelloApp:
+
 def build(self):
+
 root = BoxLayout(orientation='vertical', size=(500,300))
+
 root.add_widget(Button(text="Click me", on_press=lambda: print("🎉")))
 return root
 
 if __name__ == '__main__':
+
 run_kivy_app(__name__, 'HelloApp')
 
 Save, refresh → your app is running in the browser!
