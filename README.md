@@ -62,14 +62,14 @@ Open http://localhost:8000 then select/edit kivy_app.py to code your interface.<
 from connector import Button, BoxLayout, run_kivy_app</br>
 </br>
 ```python
-class HelloApp: # MDApp / App : no necessary</br>
-    def build(self):</br>
-        root = BoxLayout(orientation='vertical', size=(500,300))</br>
-        root.add_widget(Button(text="Click me", on_press=lambda: print("🎉")))</br>
+class HelloApp: # MDApp / App : no necessary
+    def build(self):
+        root = BoxLayout(orientation='vertical', size=(500,300))
+        root.add_widget(Button(text="Click me", on_press=lambda: print("🎉")))
         return root</br>
-</br>
-if __name__ == '__main__':</br>
-    run_kivy_app(__name__, 'HelloApp')</br>
+
+if __name__ == '__main__':
+    run_kivy_app(__name__, 'HelloApp')
 ```
 </br>
 Save, refresh → your app is running in the browser!
