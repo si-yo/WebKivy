@@ -45,7 +45,12 @@ from connector import BoxLayout, Label, Slider</br>
 
 git clone https://github.com/youraccount/WebKivy.git</br>
 
+cd webkivy/WASM_kivy_connector</br>
+</br>
+#or
+</br>
 cd WebKivy/WASM_kivy_connector</br>
+</br>
 
 # launches a small server – required for ES + Pyodide imports</br>
 python3 -m http.server 8000</br>
