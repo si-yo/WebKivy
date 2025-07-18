@@ -23,11 +23,8 @@ Summary
 
 Why?
 • No installation: Your Kivy app becomes a simple HTML + JS bundle.
-
 • Instant demo: Share a link or a .zip file, and the public can test it immediately.
-
 • Isolation: Python code runs in Pyodide's WebAssembly sandbox; no risk to the OS or system environment.
-
 • Learning: Ideal for workshops or MOOCs where learners only have a browser at their disposal.
 
 ⸻
