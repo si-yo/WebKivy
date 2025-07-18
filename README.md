@@ -65,7 +65,7 @@ from connector import Button, BoxLayout, run_kivy_app
 class HelloApp: # MDApp / App : no necessary
     def build(self):
         root = BoxLayout(orientation='vertical', size=(500,300))
-        root.add_widget(Button(text="Click me", on_press=lambda: print("🎉")))
+        root.add_widget(Button(text="Click ?", on_press=lambda: print("Hello World !")))
         return root</br>
 
 if __name__ == '__main__':
