@@ -59,9 +59,9 @@ Open http://localhost:8000 then select/edit kivy_app.py to code your interface.<
 
 
 # kivy_app.py</br>
-from connector import Button, BoxLayout, run_kivy_app</br>
-</br>
+
 ```python
+from connector import Button, BoxLayout, run_kivy_app
 class HelloApp: # MDApp / App : no necessary
     def build(self):
         root = BoxLayout(orientation='vertical', size=(500,300))
@@ -71,6 +71,7 @@ class HelloApp: # MDApp / App : no necessary
 if __name__ == '__main__':
     run_kivy_app(__name__, 'HelloApp')
 ```
+
 </br>
 Save, refresh → your app is running in the browser!
 
