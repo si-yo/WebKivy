@@ -52,7 +52,7 @@ cd WebKivy/WASM_kivy_connector
 
 
 # launches a small server – required for ES + Pyodide imports</br>
-python3 -m http.server 8000</br>
+python3 -m http.server 8000
 ```
 
 
